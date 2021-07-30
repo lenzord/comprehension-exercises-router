@@ -4,7 +4,10 @@ import Home from './components/Home';
 class App extends Component {
   render() {
     return (
-      <Home />
+      <div>
+        <h1>Hi!</h1>
+        <Home />
+      </div>
     );
   }
 }
